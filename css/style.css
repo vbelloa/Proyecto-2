@@ -1,0 +1,173 @@
+/* Estilos Globales */
+
+
+:root {
+    --main-white-color:#f2f2f2;
+    --main-fondo-color:#323fd2;
+    --main-boton-color:#fefeff;
+  }
+
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: initial;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: var(--main-fondo-color);
+}
+
+
+header,
+section,
+main,
+nav,
+footer,
+article,
+figure,
+hgroup {
+    display: block;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    transition: .4s all ease-in-out;
+}
+
+
+li {
+    list-style: none;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    color: var(--main-white-color);
+}
+
+h4,
+h5,
+h6,
+p {
+    font-weight: 400;
+    color: var(--main-white-color);
+}
+
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+}
+
+
+.first-title {
+    font-weight: 300;
+    display: block;
+}
+
+
+.description-hero {
+    font-weight: 400;
+    opacity: .7;
+    line-height: 28px;
+    text-align: justify;
+}
+
+
+.img-responsive {
+    max-width:100%;
+    width: 90%;
+}
+
+.btns {
+    background-color: var(--main-boton-color);
+    line-height:65px;
+    height:65px;
+    padding:  0 2rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+    max-width: 300px;
+    color: var(--main-fondo-color);
+    font-weight: 600;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+}
+
+.image-hero {
+    margin-top: 4rem;
+}
+
+.img-responsive {
+    max-width:100%;
+    width: 100%;
+}
+
+
+.image-top {
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.img-responsive-top {
+    max-width: 30%;
+}
+
+.seccionL{
+    padding-right: 2em;
+    display: flex;
+    justify-content: initial;
+    flex-flow: wrap;   
+}
+
+.seccionR{    
+    display: flex;
+}
+
+.menu{
+    color: var(--main-white-color);
+    display: flex;
+    overflow: hidden;   
+    padding: 0 1.5rem;
+    position: initial;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.menu-link-desktop {
+    display: flex;
+    align-items:center;
+    justify-content: left;
+}
+
+
+.links-menu {
+    padding: 0 16px;
+    line-height:70px;
+    height:70px;
+    display: block;
+    color: white;
+    font-size: 25px;
+}
+
+.links-menu:hover:not(.cta-btn) {
+    font-weight: bold;
+}
